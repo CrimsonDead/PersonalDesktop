@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import PropTypes from 'prop-types';
-import { isEmpty } from "lodash";
-// import '../../images/'
 
 const CustomInput = ({placeHolder = "Password"}) => {
     const [state, setState] = useState('');
