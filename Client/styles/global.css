@@ -17,6 +17,7 @@ body {
 
 .loginPage {
     background-image: url(https://wallpaperaccess.com/full/6233787.jpg);
+    background-size: auto;
     position: static;
     display: flex;
     flex-shrink: 0;
