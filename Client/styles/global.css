@@ -69,3 +69,26 @@ body {
     color: rgb(196, 190, 190);
     cursor: pointer;
 }
+
+.homePage {
+    background-image: url(https://wallpaperaccess.com/full/6233787.jpg);
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.homePageTime {
+    color:white;
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10ch;
+}
+
+.homePageDate {
+    color:white;
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2ch;
+}
