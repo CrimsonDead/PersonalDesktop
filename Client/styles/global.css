@@ -75,6 +75,7 @@ body {
     background-size: auto;
     width: 100%;
     height: 100%;
+    user-select: none;
 }
 
 .homePageTime {
@@ -83,6 +84,8 @@ body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 10ch;
+    margin: 0;
+    padding-top: 200px;
 }
 
 .homePageDate {
@@ -90,5 +93,6 @@ body {
     display: block;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2ch;
+    font-size: 40px;
+    margin: 6px;
 }
