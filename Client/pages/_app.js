@@ -1,4 +1,5 @@
 import '../styles/global.css';
+import '../styles/modal.css';
 
 
 function MyApp({ Component, pageProps }) {

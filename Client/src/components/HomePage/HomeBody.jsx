@@ -1,17 +1,15 @@
 import React from "react";
+import moment from "moment";
 
 const HomeBody = () => {
+    const currentTime = moment().format('LT');
+    const currentDate = moment().format('LL');
     return (
         <div className="homePage">
-            <a className="homePageTime">10:48</a>
-            <a className="homePageDate">Friday, 20 April</a>
+            <h1 className="homePageTime">{currentTime}</h1>
+            <h2 className="homePageDate">{currentDate}</h2>
         </div>
     );
 };
 
 export default HomeBody;
-
-<div className="homePage">
-            <p className="homePageTime"><a>10:48</a></p>
-            <p className="homePageDate"><a>Friday, 20 April</a></p>
-        </div>
